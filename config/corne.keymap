@@ -117,7 +117,7 @@
    &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans       &kp K_PREV K_VOL_UP &kp K_VOL_DN &kp K_NEXT &trans
    &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
-                       &trans &trans &trans &kp K_PP &kp  &trans 
+                       &trans &trans &trans &kp K_PP &kp K_MUTE  &trans 
                         >;
                 };
         };
