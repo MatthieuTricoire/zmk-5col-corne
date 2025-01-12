@@ -16,12 +16,11 @@
         zmk,physical-layout = &foostan_corne_5col_layout;
     };
 
-    #define SYM 4
+    #define SYM 1
     #define NUM 2
     #define NAV 3
-    #define MEDIA 1
+    #define MEDIA 4
     #define FUN 5
-    #define GAME 6
 
     behaviors {
         bhm: balanced_homerow_mods {
