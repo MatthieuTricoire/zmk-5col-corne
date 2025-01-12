@@ -31,15 +31,6 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-
-        hyper_key: hyper_key {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>; // Durée pour détecter un "tap" (200 ms par défaut)
-            quick_tap_ms = <150>;   // Durée pour les taps rapides (facultatif)
-            flavor = "balanced";   
-            bindings = <&kp TAB>, <&mt LCTRL LALT LSHIFT LGUI>;
-        };
     };
 
         keymap {
@@ -51,7 +42,7 @@
    &kp Q        &kp W       &kp E       &kp R         &kp T       &kp Y   &kp U          &kp I           &kp O           &kp P
    &bhm LCTRL A &bhm LALT S &bhm LGUI D &bhm LSHIFT F &kp G       &kp H   &bhm RSHIFT J  &bhm RGUI K     &bhm RALT L     &bhm RCTRL APOS 
    &kp Z        &kp X       &kp C       &kp V         &kp B       &kp N   &kp M          &kp COMMA       &kp DOT         &kp SLASH
-                          &lt MEDIA ESCAPE  &hyper_key &lt NAV ENTER     &lt SYM SPACE  &lt NUM BSPC  &lt FUN DELETE
+                          &lt MEDIA ESCAPE  &kp TAB &lt NAV ENTER     &lt SYM SPACE  &lt NUM BSPC  &lt FUN DELETE
                         >;
                 };
 
