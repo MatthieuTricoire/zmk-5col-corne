@@ -104,7 +104,7 @@
                         >;
                 };
 
-                //media_layer {
+                media_layer {
 // -----------------------------------------------------------------------------------------
 // |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I   |  O   | P |
 // |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K   |  L   | ' | 
@@ -112,13 +112,13 @@
 //             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
 
 
-                 //       display-name = "Media";
-                  //      bindings = <
-   //&trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
-   //&trans &trans &trans &trans &trans       &kp K_PREV K_VOL_UP &kp K_VOL_DN &kp K_NEXT &trans
-   //&trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
-                       //&trans &trans &trans &kp K_PP &kp K_MUTE  &trans 
-                        //>;
-                //};
+                        display-name = "Media";
+                 /      bindings = <
+   &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans       &kp K_PREV &kp K_VOL_UP &kp K_VOL_DN &kp K_NEXT &trans
+   &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
+                       &trans &trans &trans &kp K_PP &kp K_MUTE  &trans 
+                        >;
+                };
         };
 };
