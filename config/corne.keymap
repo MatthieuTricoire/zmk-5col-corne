@@ -81,7 +81,7 @@
                         display-name = "Num";
                         bindings = <
    &kp LEFT_BRACKET &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp RIGHT_BRACKET                   &trans &trans &trans &trans &trans
-   &kp SEMICOLON   &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp EQUAL                           &trans &trans &trans &trans &trans
+   &kp SEMICOLON    &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp EQUAL                           &trans &trans &trans &trans &trans
    &kp GRAVE        &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp BACKSLASH                       &trans &trans &trans &trans &trans 
                           &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp MINUS             &trans &trans &trans
                         >;
