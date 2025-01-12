@@ -37,7 +37,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>; // Durée pour détecter un "tap" (200 ms par défaut)
             quick_tap_ms = <150>;   // Durée pour les taps rapides (facultatif)
-            flavor = "balanced";    // Choix entre "hold-preferred", "tap-preferred", ou "balanced"
+            flavor = "balanced";   
             bindings = <&kp TAB>, <&mt LCTRL LALT LSHIFT LGUI>;
         };
     };
