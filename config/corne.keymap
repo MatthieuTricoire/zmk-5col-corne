@@ -97,7 +97,7 @@
 
                         display-name = "Nav";
                         bindings = <
-   &trans &trans &kp K_CUT &kp K_COPY &kp K_PASTE      &trans &trans &trans &trans &trans
+   &trans &trans &kp K_CUT &kp K_COPY &kp K_PASTE       &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans                   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
    &trans &trans &trans &trans &trans                   &trans &trans &trans &trans &trans
                        &trans &trans &trans &trans &trans &trans 
@@ -115,8 +115,8 @@
                         display-name = "Media";
                         bindings = <
    &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans                   &trans &kp K_VOL_UP &kp K_VOL_DOWN &trans &trans
-   &trans &trans &trans &trans &trans                   &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans      &trans &kp K_VOL_UP &kp K_VOL_DN &trans &trans
+   &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
                        &trans &trans &trans &trans &trans &trans 
                         >;
                 };
