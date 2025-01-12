@@ -50,7 +50,7 @@
    &kp Q        &kp W       &kp E       &kp R         &kp T       &kp Y   &kp U          &kp I           &kp O           &kp P
    &bhm LCTRL A &bhm LALT S &bhm LGUI D &bhm LSHIFT F &kp G       &kp H   &bhm RSHIFT J  &bhm RGUI K     &bhm RALT L     &bhm RCTRL APOS 
    &kp Z        &kp X       &kp C       &kp V         &kp B       &kp N   &kp M          &kp COMMA       &kp DOT         &kp SLASH
-                          &lt MEDIA ESCAPE  &lt 2 TAB &lt NAV ENTER     &lt SYM SPACE  &lt NUM BSPC  &lt 6 DELETE
+                          &lt MEDIA ESCAPE  &lt FUN TAB &lt NAV ENTER     &lt SYM SPACE  &lt NUM BSPC  &lt 6 DELETE
                         >;
                 };
 
@@ -115,9 +115,9 @@
                         display-name = "Media";
                         bindings = <
    &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans       &trans &kp K_PREV K_VOL_UP &kp K_VOL_DN &kp K_NEXT &trans
+   &trans &trans &trans &trans &trans       &kp K_PREV K_VOL_UP &kp K_VOL_DN &kp K_NEXT &trans
    &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
-                       &trans &trans &trans &kp KP_PP &trans &trans 
+                       &trans &trans &trans &kp K_PP &kp  &trans 
                         >;
                 };
         };
