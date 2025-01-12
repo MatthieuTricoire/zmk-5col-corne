@@ -113,7 +113,7 @@
 
 
                         display-name = "Media";
-                 /      bindings = <
+                       bindings = <
    &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans       &kp K_PREV &kp K_VOL_UP &kp K_VOL_DN &kp K_NEXT &trans
    &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
