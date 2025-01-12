@@ -97,7 +97,7 @@
 
                         display-name = "Nav";
                         bindings = <
-   &trans &trans &kp KP_CUT &kp K_COPY &kp K_PASTE      &trans &trans &trans &trans &trans
+   &trans &trans &kp K_CUT &kp K_COPY &kp K_PASTE      &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans                   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
    &trans &trans &trans &trans &trans                   &trans &trans &trans &trans &trans
                        &trans &trans &trans &trans &trans &trans 
