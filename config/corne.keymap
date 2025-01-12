@@ -29,8 +29,6 @@
             tapping-term-ms = <200>;    // <---[[moderate duration]]
             quick-tap-ms = <0>;
             flavor = "balanced";
-            hold-trigger-key-positions = <0>; // Empêche d'activer le modificateur lors des appuis rapides répétés
-
             bindings = <&kp>, <&kp>;
         };
     };
