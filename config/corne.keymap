@@ -114,10 +114,10 @@
 
                         display-name = "Media";
                         bindings = <
-   &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans      &trans &kp K_VOL_UP &kp K_VOL_DN &trans &trans
-   &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans
-                       &trans &trans &trans &trans &trans &trans 
+   &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans       &trans &kp K_PREV K_VOL_UP &kp K_VOL_DN &kp K_NEXT &trans
+   &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
+                       &trans &trans &trans &kp KP_PP &trans &trans 
                         >;
                 };
         };
