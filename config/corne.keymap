@@ -75,7 +75,7 @@
                         display-name = "Base";
                         bindings = <
    &kp Q        &kp W       &kp E       &kp R         &kp T       &kp Y   &kp U          &kp I           &kp O           &kp P
-   &hml LCTRL A &bhm LALT S &bhm LGUI D &bhm LSHIFT F &kp G       &kp H   &bhm RSHIFT J  &bhm RGUI K     &bhm RALT L     &bhm RCTRL APOS 
+   &hml LCTRL A &hlm LALT S &hlm LGUI D &hlm LSHIFT F &kp G       &kp H   &hlm RSHIFT J  &hlm RGUI K     &hlm RALT L     &hlm RCTRL APOS 
    &kp Z        &kp X       &kp C       &kp V         &kp B       &kp N   &kp M          &kp COMMA       &kp DOT         &kp SLASH
                           &lt MEDIA ESCAPE  &mt LC(LS(LA(LGUI))) TAB &lt NAV ENTER     &lt SYM SPACE  &lt NUM BSPC  &lt FUN DELETE
                         >;
