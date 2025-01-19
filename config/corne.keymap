@@ -45,29 +45,6 @@
     hold-trigger-on-release;
 )
 
-
-    /* Right-thumbs. */
-    ZMK_HOLD_TAP(tr,
-    flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <175>;
-    require-prior-idle-ms = <150>;
-    bindings = <&mo>, <&kp>;
-    hold-trigger-key-positions = <KEYS_L THUMBS>;
-    hold-trigger-on-release;
-)
-
- /* Left-thumbs. */
-    ZMK_HOLD_TAP(tl,
-    flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <175>;
-    require-prior-idle-ms = <150>;
-    bindings = <&mt>, <&kp>;
-    hold-trigger-key-positions = <KEYS_R THUMBS>;
-    hold-trigger-on-release;
-)
-
 {
     chosen {
         zmk,physical-layout = &foostan_corne_5col_layout;
